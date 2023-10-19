@@ -186,7 +186,10 @@ header .options-header a:hover {
 
 .box-nav .dropdown:hover .dropdown-menu {
     display: block;
+    -top: 5px;
 }
+
+.splide__track ul li{text-align: center;}
 
 
 

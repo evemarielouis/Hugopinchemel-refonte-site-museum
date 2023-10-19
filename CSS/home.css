@@ -111,9 +111,15 @@ header nav ul li.menu {
     display: block;
 }
 
+.container-nom-musee { 
+    display: flex;
+    justify-content: flex-start;
+}
+
 .container-header {
     position: relative;
     margin-bottom: 80px;
+    padding: 25px;
 }
 
 .container-museum-title {
@@ -121,10 +127,15 @@ header nav ul li.menu {
     justify-content: space-between;
 }
 
-.options-header {
-    display: flex;
-    
+.container-museum-title button {
+    justify-self: flex-end;
 }
+
+.container-nom-musee img {
+    padding-right: 25px;
+}
+
+
 
 /*
  __  __       _       

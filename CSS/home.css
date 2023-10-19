@@ -10,6 +10,7 @@
 header {
     background-color: rgba(176, 182, 110, 0.26);
     max-height: 9em;
+    z-index: 2;
 }
 
 header div.top-header {
@@ -62,59 +63,6 @@ header nav ul {
     justify-content: center;
 }
 
-header nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-
-header .box-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-header div.lignetop {
-    border-top: 2px solid #d6b251;
-    padding-top: 5px;
-    width: 150px;
-    align-items: center;
-}
-
-header div.lignebottom {
-    border-bottom: 2px solid #d6b251;
-    padding-bottom: 5px;
-    width: 150px;
-    align-items: center;
-
-}
-
-header nav li:hover {
-    font-size: 20px;
-}
-
-header .dropdown {
-    position: relative;
-}
-
-header nav ul li.menu {
-
-    background-color: #B0B66E;
-}
-
-header .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #B0B66E;
-}
-
-header .dropdown:hover .dropdown-menu {
-    display: block;
-}
-
 header .container-nom-musee {
     display: flex;
     justify-content: flex-start;
@@ -122,7 +70,6 @@ header .container-nom-musee {
 
 header .container-header {
     position: relative;
-    margin-bottom: 80px;
     padding: 25px;
 }
 
@@ -139,7 +86,57 @@ header .container-nom-musee img {
     padding-right: 25px;
 }
 
+/**************** NAV **********/
 
+.box-nav nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+
+.box-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 2;
+}
+
+.box-nav div.lignetop {
+    border-top: 2px solid #d6b251;
+    padding-top: 5px;
+    width: 150px;
+    align-items: center;
+}
+
+.box-nav div.lignebottom {
+    border-bottom: 2px solid #d6b251;
+    padding-bottom: 5px;
+    width: 150px;
+    align-items: center;
+}
+
+.box-nav .dropdown {
+    position: relative;
+}
+
+.box-nav nav ul li.menu {
+    background-color: #B0B66E;
+}
+
+.box-nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #B0B66E;
+}
+
+.box-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 
 /*
@@ -154,6 +151,10 @@ header .container-nom-musee img {
 body {
     background-color: white;
     font-family: 'Arial';
+}
+
+.section1 {
+    z-index: 1;
 }
 
 main section {
@@ -290,7 +291,7 @@ h3.button-school {
     color: white;
 }
 
-.hover {
+section .hover {
     position: absolute;
     background-color: #3D3F3E;
     opacity: 1;

@@ -125,6 +125,10 @@ header .container-nom-musee img {
     padding-right: 25px;
 }
 
+p.languages { 
+    padding: 0.4em;
+}
+
 /**************** NAV **********/
 
 .box-nav nav ul {
@@ -138,6 +142,10 @@ header .container-nom-musee img {
 .box-nav nav ul.dropdown-menu li.menu a:hover {
     text-decoration: underline;
     text-underline-offset: 0.4em;
+}
+
+.box-nav nav ul li.dropdown a.navig-title {
+    padding: 0.5em;
 }
 
 header .options-header a:hover {

@@ -12,17 +12,17 @@
     <title>Muséum Bordeaux</title>
     <script src="splide-4.1.3/dist/js/splide.min.js"></script>
     <script>
-        new Splide('#slider-language').mount();
-
         new Splide('#slider-event').mount();
 
-        new Splide('#slider-collection').mount();
+        new Splide('#slider-collections').mount();
     </script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var splide = new Splide('.splide');
-            splide.mount();
-
+            var elms = document.getElementsByClassName('splide');
+            for (var i = 0; i < elms.length; i++) {
+                var splide = new Splide(elms[i]);
+                splide.mount();
+            }
         });
     </script>
 </head>
@@ -32,7 +32,7 @@
     <header>
         <div class="container-header">
             <div class="container-museum-title">
-                <div class="container-nom-musee"><img src="images/LOGO-MUSEUM.png" width="125" height="100"
+                <div class="container-nom-musee"><img src="images/LOGO-MUSEUM.png" width="125px" height="100px"
                         alt="logo du museum">
                     <div class="nom_musee">
                         <h1>MUSEUM DE BORDEAUX</h1>
@@ -41,8 +41,9 @@
                 </div>
                 <div class="options-header">
                     <button class="bouton-Reserver" onclick="window.location.href='billeterie.html'">RESERVER</button>
-                    <p> FR </p>
-                    <a href="/">ACCESSIBILITE</a>
+                    <p class="languages"><a href="#">FR</a> | <a href="#">ENG</a> | <a href="#">LSF</a></p>
+                    <a href="#">ACCESSIBILITE</a>
+
                 </div>
             </div>
 
@@ -51,7 +52,7 @@
                     <ul>
                         <li class="dropdown">
                             <div class="lignetop"></div>
-                            <a>VISITER</a>
+                            <a class="navig-title">VISITER</a>
                             <div class="lignebottom"></div>
                             <ul class="dropdown-menu">
                                 <li class="menu"><a href="#">EXPOSITION</a></li>
@@ -61,7 +62,7 @@
                         <li>
                         <li class="dropdown">
                             <div class="lignetop"></div>
-                            <a>MUSÉE</a>
+                            <a class="navig-title">MUSÉE</a>
                             <div class="lignebottom"></div>
                             <ul class="dropdown-menu">
                                 <li class="menu"><a href="#">NOTRE ÉQUIPE</a></li>
@@ -74,7 +75,7 @@
                         <li>
                         <li class="dropdown">
                             <div class="lignetop"></div>
-                            <a>ÉDUCATION</a>
+                            <a class="navig-title">ÉDUCATION</a>
                             <div class="lignebottom"></div>
                             <ul class="dropdown-menu">
                                 <li class="menu"><a href="#">HORS LES MURS</a></li>
@@ -97,8 +98,9 @@
                     <h2 class="slideshow-title">évènements</h2>
                     <div class="line-slideshow"></div>
                 </div>
-                <section class="splide" aria-label="Splide Basic HTML Example">
+                <section class="splide" id="slider-event">
                     <div class="splide__track">
+
                         <ul class="splide__list">
                             <li class="splide__slide">
                                 <div class="cover">
@@ -108,7 +110,8 @@
                                         <div class="rectangle-slideshow">
                                             <h3 class="slideshow-description">La nature vue par l'homme</h3>
                                             <div class="slideshow-contenu">
-                                                <a href="TICKET" class="bouton-Reserver2">RESERVER <img src="TICKET"></a>
+                                                <a href="" #" class="bouton-Reserver2">RESERVER <img src="#"
+                                                        alt="billet"></a>
                                                 <p>L’exposition permanente du Muséum de Bordeaux, que l’on découvre dès
                                                     le hall
                                                     d’accueil
@@ -124,7 +127,7 @@
                             </li>
                             <li class="splide__slide">
                                 <div class="cover">
-                                    <img src="images/jangala.jpg">
+                                    <img src="images/jangala.jpg" alt="immage de la jungle indienne">
                                     <div class="container-slide">
 
                                         <div class="rectangle-slideshow">
@@ -135,7 +138,7 @@
                                                         src="TICKET"></a>
                                                 <p>Le Muséum de Bordeaux – sciences et nature invite à un voyage en
                                                     Inde, à la
-                                                    découverte de sa jungle et des écosystèmes qui l’entourent.</b>
+                                                    découverte de sa jungle et des écosystèmes qui l’entourent.
                                                 </p>
                                             </div>
                                         </div>
@@ -144,7 +147,7 @@
                             </li>
                             <li class="splide__slide">
                                 <div class="cover">
-                                    <img src="images/Tous à plumes !.jpg" alt="">
+                                    <img src="images/Tous à plumes !.jpg" alt="immage de l'expositions tous a plumes">
                                     <div class="container-slide">
 
                                         <div class="rectangle-slideshow">
@@ -159,7 +162,7 @@
                                                     de nous, ils sont la manifestation la plus visible de la vie sauvage
                                                     et
                                                     pourtant nous ne leur prêtons que rarement toute l’attention qu’ils
-                                                    méritent.</b>
+                                                    méritent.
                                                 </p>
                                             </div>
                                         </div>
@@ -185,9 +188,9 @@
 
                 <div class="description-museum">
                     <img src="https://www.museum-bordeaux.fr/sites/BOR-MUSEUM-DRUPAL/files/2019-10/La%20place%20de%20l%27homme%20dans%20la%20nature%20au%20Mus%C3%A9um%20de%20Bordeaux%20-%20sciences%20et%20nature_4.jpg"
-                        class="interior">
+                        class="interior" alt="squelettes d'animaux">
                     <img src="https://www.museum-bordeaux.fr/sites/BOR-MUSEUM-DRUPAL/files/2019-10/L%E2%80%99exposition%20Mange-moi%2C%20si%20tu%20peux%20%21%20est%20%C3%A0%20d%C3%A9couvrir%20au%20Mus%C3%A9um%20de%20Bordeaux%20-%20sciences%20et%20nature%20%284%29.jpg"
-                        class="skeleton">
+                        class="skeleton" alt="squelettes d'animaux">
                 </div>
                 <div class="block-text">
                     <p>Sur quatre niveaux, le Muséum de Bordeaux vous propose de découvrir la diversité
@@ -213,17 +216,87 @@
 
         </section>
         <section>
-            <div>
-                <img src="FLECHE-GAUCHE">
-                <img src="IMAGE-OURS">
-                <img src="FLECHE-DROITE">
-                <h2>colletions</h2>
-                <div class="rectangle-slideshow2">
-                    <h3>le spécimen du moment</h3>
-                    <p>Également appelé Hippocampe moucheté, Hippocampus guttulatus est originaire de l'est de
-                        l’océan Atlantique et de la mer Méditerranée.</p>
+            <div class="slideshow-grid2">
+                <div class="presentation-slideshow2">
+                    <div class="line-slideshow"></div>
+                    <h2 class="slideshow-title2">collections</h2>
+
                 </div>
-                <img src="POINTS">
+                <section class="splide" id="slider-collections">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="cover">
+                                    <img src="images/ours-slideshow.jpg" alt="immage d'un ours polaire">
+                                    <div class="container-slide">
+
+                                        <div class="rectangle-slideshow">
+                                            <h3 class="slideshow-description">La nature vue par l'homme</h3>
+                                            <div class="slideshow-contenu">
+                                                <a href="TICKET" class="bouton-Reserver2">RESERVER <img
+                                                        src="TICKET"></a>
+                                                <p>L’exposition permanente du Muséum de Bordeaux, que l’on découvre dès
+                                                    le hall
+                                                    d’accueil
+                                                    et jusqu’au 2ème étage dans la galerie Souverbie, évoque <b>la
+                                                        richesse de
+                                                        la
+                                                        biodiversité.</b>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="cover">
+                                    <img src="images/jangala.jpg" alt="immage de la jungle indienne">
+                                    <div class="container-slide">
+
+                                        <div class="rectangle-slideshow">
+                                            <h3 class="slideshow-description">Jāṅgala , au cœur de la jungle indienne
+                                            </h3>
+                                            <div class="slideshow-contenu">
+                                                <a href="TICKET" class="bouton-Reserver2">RESERVER <img
+                                                        src="TICKET"></a>
+                                                <p>Le Muséum de Bordeaux – sciences et nature invite à un voyage en
+                                                    Inde, à la
+                                                    découverte de sa jungle et des écosystèmes qui l’entourent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="cover">
+                                    <img src="images/Tous à plumes !.jpg" alt="immage de l'expositions tous a plumes">
+                                    <div class="container-slide">
+
+                                        <div class="rectangle-slideshow">
+                                            <h3 class="slideshow-description">Tous à Plumes !</h3>
+                                            <div class="slideshow-contenu">
+                                                <a href="TICKET" class="bouton-Reserver2">RESERVER <img
+                                                        src="TICKET"></a>
+                                                <p>L’exposition Tous à Plumes ! vous plonge dans l’univers des oiseaux
+                                                    avec une
+                                                    approche immersive, pédagogique et sensorielle. Les oiseaux sont
+                                                    tout autour
+                                                    de nous, ils sont la manifestation la plus visible de la vie sauvage
+                                                    et
+                                                    pourtant nous ne leur prêtons que rarement toute l’attention qu’ils
+                                                    méritent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
             </div>
         </section>
 
@@ -237,14 +310,14 @@
             <div class="button-images">
 
                 <div class="scolarite">
-                    <div class="hover"><img src="images\scol.jpg" class="button">
+                    <div class="hover"><img src="images/scol.jpg" class="button" alt="bouton scolarité">
                         <h3 class="button-school">SCOLARITE</h3>
                     </div>
                 </div>
 
 
                 <div class="loisir">
-                    <div class="hover"><img src="images\lois.jpg" class="button">
+                    <div class="hover"><img src="images/lois.jpg" class="button" alt="bouton loisir">
                         <h3 class="button-school">LOISIR</h3>
                     </div>
                 </div>
@@ -252,7 +325,7 @@
 
 
             <div class="grid-education">
-                <img class="imgours" src="images\ateliers.jpg">
+                <img class="imgours" src="images/ateliers.jpg" alt="atelier hors les murs">
                 <div class="line-school"></div>
                 <div class="texte-atelier">
 
@@ -263,7 +336,7 @@
                         les
                         protéger et en quoi l’Homme a eu un impact sur leurs modes de vie.</p>
                 </div>
-                <img class="imgchildren" src="images\petits.jpg">
+                <img class="imgchildren" src="images/petits.jpg" alt="musée des tout-petits">
                 <div class="line-school1"></div>
                 <div class="texte-petits">
                     <h3 class="educ-title">musée des tout-petits</h3>
@@ -289,7 +362,7 @@
                 <p>Les chèques vacances ne sont pas acceptés.</p>
                 <p>Tarif plein : 8,50 €</p>
                 <p>Tarif réduit : 4,50 €</p>
-                <a href="LIEN-EN-SAVOIR-PLUS">En savoir plus.</a>
+                <a href="#">En savoir plus.</a>
             </div>
             <div class="footersubsubcontener">
                 <h3>Heures d'ouverture.</h3>
@@ -324,7 +397,7 @@
                 <h3>Visiter.</h3>
                 <p>5 place Bardineau - 33000 Bordeaux</p>
                 <h3>Bordeaux Métropole</h3>
-                <a href="SITE">Aller au site bordeaux.fr</a>
+                <a href="#">Aller au site bordeaux.fr</a>
 
                 <div class=icon><img src="images/facebook.svg" width="30" alt="Logo réseaux sociaux">
                     <img src="images/instagram.svg" width="30" alt="Logo réseaux sociaux">
@@ -337,11 +410,11 @@
         <div>
             <nav>
                 <ul>
-                    <li><a href="lien">Plan du site.</a></li>
-                    <li><a href="lien">Mentions légales et crédits.</a></li>
-                    <li><a href="lien">FAQ.</a></li>
-                    <li><a href="lien">Offre d'emploi.</a></li>
-                    <li><a href="lien">Accessibilité : partiellement conforme.</a></li>
+                    <li><a href="#">Plan du site.</a></li>
+                    <li><a href="#">Mentions légales et crédits.</a></li>
+                    <li><a href="#">FAQ.</a></li>
+                    <li><a href="#">Offre d'emploi.</a></li>
+                    <li><a href="#">Accessibilité : partiellement conforme.</a></li>
                 </ul>
             </nav>
         </div>

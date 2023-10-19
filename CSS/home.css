@@ -125,6 +125,10 @@ header .container-nom-musee img {
     padding-right: 25px;
 }
 
+p.languages { 
+    padding: 0.4em;
+}
+
 /**************** NAV **********/
 
 .box-nav nav ul {
@@ -138,6 +142,10 @@ header .container-nom-musee img {
 .box-nav nav ul.dropdown-menu li.menu a:hover {
     text-decoration: underline;
     text-underline-offset: 0.4em;
+}
+
+.box-nav nav ul li.dropdown a.navig-title {
+    padding: 0.5em;
 }
 
 header .options-header a:hover {
@@ -186,7 +194,10 @@ header .options-header a:hover {
 
 .box-nav .dropdown:hover .dropdown-menu {
     display: block;
+    -top: 5px;
 }
+
+.splide__track ul li{text-align: center;}
 
 
 
@@ -457,6 +468,14 @@ h3.educ-title {
     gap: 10px;
 }
 
+.slideshow-grid2 {
+    display: flex;
+    align-items: end;
+    margin-top: 150px;
+    height: 600px;
+    gap: 10px;
+}
+
 .slideshow-title {
     transform: translate(-100%, -100%);
     top: 50%;
@@ -464,10 +483,17 @@ h3.educ-title {
     justify-content: center;
 }
 
+.slideshow-title2 {
+    transform: translate(100%, 100%);
+    top: 50%;
+    transform: rotate(90deg);
+    justify-content: center;
+}
+
 .container-slide {
     align-content: end;
     display: flex;
-    width: 1276px;
+    width: 1275px;
 }
 
 /* .cover { 
@@ -552,6 +578,14 @@ h3.educ-title {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: end;
+
+}
+
+.presentation-slideshow2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: start;
 
 }
 

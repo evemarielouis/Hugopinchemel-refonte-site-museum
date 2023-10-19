@@ -132,7 +132,7 @@ header .container-nom-musee img {
     justify-content: space-evenly;
     flex-direction: row;
     gap: 25px;
-    
+
 }
 
 .box-nav {
@@ -229,6 +229,15 @@ img.skeleton {
     max-width: 40%;
     max-height: 100%;
 }
+
+.cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    max-width: 1024px;
+    max-height: 680px;
+}
+
 
 div.block-text {
     width: 646px;
@@ -429,15 +438,15 @@ h3.educ-title {
 }
 */
 
-.slideshow-grid{
+.slideshow-grid {
     display: flex;
     align-items: center;
     margin-top: 150px;
-    height:600px;
-    gap:10px;
+    height: 600px;
+    gap: 10px;
 }
 
-.slideshow-title{
+.slideshow-title {
     transform: translate(-100%, -100%);
     top: 50%;
     transform: rotate(-90deg);
@@ -458,7 +467,7 @@ h3.educ-title {
     position:relative;
     width: 70%
 
-}*/ 
+}*/
 /*.cover-grid{
      grid-column-start: 2;
     grid-column-end: 2;
@@ -467,16 +476,18 @@ h3.educ-title {
 }
 */
 
-.cover{
+.cover {
     display: flex;
     align-items: end;
     border-radius: 10px;
 
 }
- .cover img{
+
+.cover img {
     border-radius: 10px;
- }
-.rectangle-slideshow{
+}
+
+.rectangle-slideshow {
     display: flex;
     flex-direction: column;
     transform: translate(-100%, -100%);
@@ -488,19 +499,20 @@ h3.educ-title {
     align-content: end;
     padding: 50px;
     opacity: 0.7;
-    border-radius: 10px 0 0 0 ;
+    border-radius: 10px 0 0 0;
 }
 
-.slideshow-description{
-    display: block ;
+.slideshow-description {
+    display: block;
 }
 
-.slideshow-contenu{
+.slideshow-contenu {
     display: flex;
     opacity: 1;
     flex-direction: row;
-    gap:20px;
+    gap: 20px;
 }
+
 .bouton-Reserver2 {
     background-color: #39958c;
     border: none;
@@ -514,22 +526,24 @@ h3.educ-title {
     cursor: pointer;
     border-radius: 10px;
     width: 199px;
-    height:55px
+    height: 55px
 }
 
-.line-slideshow{
+.line-slideshow {
     width: 20%;
     height: 3px;
     background-color: #D6B251;
 
 }
- .presentation-slideshow{
+
+.presentation-slideshow {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    align-items:end;
-    
- }
+    align-items: end;
+
+}
+
 /*
   ______                   _
  |  ____|                 | |

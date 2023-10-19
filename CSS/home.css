@@ -125,6 +125,10 @@ header .container-nom-musee img {
     padding-right: 25px;
 }
 
+p.languages { 
+    padding: 0.4em;
+}
+
 /**************** NAV **********/
 
 .box-nav nav ul {

@@ -140,6 +140,10 @@ header .container-nom-musee img {
     text-underline-offset: 0.4em;
 }
 
+.box-nav nav ul li.dropdown a.navig-title {
+    padding: 0.5em;
+}
+
 header .options-header a:hover {
     text-decoration: underline;
     text-underline-offset: 0.4em;

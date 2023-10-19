@@ -1,14 +1,22 @@
 /* version mobile */
 @media (max-width: 768px) {
+    section{
+        padding: 0;
+        margin: 30px;
+    }
 
-    body {
+    main section{
+        margin:30px;
+    }
+
+    body{
         color: blue;
         width: 100%;
         max-width: 375px;
         object-fit: cover;
       
     }
-    .dropdown, .nom_musee h2, .bouton-Reserver, .options-header p{
+    .dropdown, .nom_musee h2, .bouton-Reserver, .options-header p, .options-header a{
         visibility: hidden;
     }
 
@@ -27,7 +35,58 @@
     .container-header{
         height:100px;
         padding: 0px 0px 0px 0px;
+        width: 375px;
     }
 
+    .skeleton{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .grid-education{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:0;
+    }
+
+    .grid-education img{
+        width:100%;
+        height:117px;
+        margin:0;
+    }
+
+    .footersubsubcontener{
+        width: 375px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .footersubcontener{
+        display:block;
+    }
+
+    .presentation-slideshow{
+        visibility:hidden;
+        position:absolute;
+    }
+
+    .presentation-museum{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    .presentation-museum img{
+       height:140px;
+       width:100%;
+       object-fit: contain;
+    }
+
+    
+    .splide {
+    width: 100%;
+}
 
 }

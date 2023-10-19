@@ -1,3 +1,13 @@
+/*
+  ______                   _
+ |  ____|                 | |
+ | |__      ___    _ __   | |_
+ |  __|    / _ \  | '_ \  | __|
+ | |      | (_) | | | | | | |_
+ |_|       \___/  |_| |_|  \__|
+ 
+ */
+
 @font-face { 
     font-family : 'WalbaumDisplay';
     src: url('font\walbaumdisplayregular.woff2');
@@ -68,4 +78,26 @@ h3 {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
+}
+
+header, body, footer {
+    cursor: default;
+}
+
+a {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+li.menu a {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
 }

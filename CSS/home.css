@@ -1,6 +1,134 @@
+/*
+  _    _                      _
+ | |  | |                    | |
+ | |__| |   ___    __ _    __| |   ___   _ __
+ |  __  |  / _ \  / _` |  / _` |  / _ \ | '__|
+ | |  | | |  __/ | (_| | | (_| | |  __/ | |
+ |_|  |_|  \___|  \__,_|  \__,_|  \___| |_|
+
+ */
+ header {
+    background-color: rgba(176, 182, 110, 0.26);
+}
+
+.bouton-Reserver {
+    background-color: #39958c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+header div.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+header div.logo-musee {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+header div.header-button {
+    margin-right: 15px;
+    margin-top: 15px;
+    justify-content: end;
+    text-align: center;
+}
+
+
+header div img {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+div.nom_musee {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+header nav ul li {
+    margin-top: 15px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.lignetop {
+    border-top: 2px solid #d6b251;
+    padding-top: 5px;
+    width: 150px;
+    align-items: center;
+}
+
+div.lignebottom {
+    border-bottom: 2px solid #d6b251;
+    padding-bottom: 5px;
+    width: 150px;
+    align-items: center;
+
+}
+
+nav li:hover {
+    font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+header nav ul li.menu{
+
+    background-color: #B0B66E;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #B0B66E;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/*
+ __  __       _       
+|  \/  |     (_)      
+| \  / | __ _ _ _ __  
+| |\/| |/ _` | | '_ \ 
+| |  | | (_| | | | | |
+|_|  |_|\__,_|_|_| |_|
+                      
+*/   
 body {
     background-color: white;
     font-family: 'Arial';
+}
+
+main section{
+    margin-top: 50px;
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -263,4 +391,46 @@ h3.educ-title {
     right:5%;
     background-color: lightgrey;
     align-content: end;
+}
+
+/*
+  ______                   _
+ |  ____|                 | |
+ | |__      ___     ___   | |_    ___   _ __
+ |  __|    / _ \   / _ \  | __|  / _ \ | '__|
+ | |      | (_) | | (_) | | |_  |  __/ | |
+ |_|       \___/   \___/   \__|  \___| |_|
+
+ */
+ footer div {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer div.ligne-footer {
+    display: flex;
+    flex-grow: initial;
+    margin-top: 80px;
+    border-top: 2px solid #d6b251;
+    margin-bottom: 30px;
+
+}
+
+footer div.footersubcontener {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+footer div.footersubsubcontener {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+div.bottombottom nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
 }

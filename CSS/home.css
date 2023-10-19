@@ -619,18 +619,17 @@ footer div nav ul {
     flex-direction: row-reverse;
 }
 
-footer div.footersubcontener {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
 footer div.footersubsubcontener {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    padding-left: 10px;
     padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footersubcontener h3, 
+.footersubcontener p {
+    margin-bottom: 10px;
 }
 
 .icon {

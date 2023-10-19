@@ -107,3 +107,13 @@ li.menu a {
     color: white;
     text-decoration: none;
 }
+
+.lien-special { 
+    color: #39958c;
+}
+
+.lien-special:hover { 
+    color: #D6B251;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}

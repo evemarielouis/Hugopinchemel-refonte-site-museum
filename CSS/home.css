@@ -45,7 +45,7 @@ header .nom_musee {
 
 header nav ul li {
     margin-top: 15px;
-    margin-bottom: 43px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -94,7 +94,7 @@ header .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    width: 150px;
     background-color: #B0B66E;
 }
 

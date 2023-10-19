@@ -48,7 +48,7 @@ header div img {
     margin-top: 10px;
 }
 
-div.nom_musee {
+header .nom_musee {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -71,14 +71,14 @@ header nav ul {
     justify-content: space-evenly;
 }
 
-div.lignetop {
+header div.lignetop {
     border-top: 2px solid #d6b251;
     padding-top: 5px;
     width: 150px;
     align-items: center;
 }
 
-div.lignebottom {
+header div.lignebottom {
     border-bottom: 2px solid #d6b251;
     padding-bottom: 5px;
     width: 150px;
@@ -86,11 +86,11 @@ div.lignebottom {
 
 }
 
-nav li:hover {
+header nav li:hover {
     font-size: 20px;
 }
 
-.dropdown {
+header .dropdown {
     position: relative;
 }
 
@@ -99,7 +99,7 @@ header nav ul li.menu {
     background-color: #B0B66E;
 }
 
-.dropdown-menu {
+header .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
@@ -107,31 +107,31 @@ header nav ul li.menu {
     background-color: #B0B66E;
 }
 
-.dropdown:hover .dropdown-menu {
+header .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.container-nom-musee { 
+header .container-nom-musee { 
     display: flex;
     justify-content: flex-start;
 }
 
-.container-header {
+header .container-header {
     position: relative;
     margin-bottom: 80px;
     padding: 25px;
 }
 
-.container-museum-title {
+header .container-museum-title {
     display: flex;
     justify-content: space-between;
 }
 
-.container-museum-title button {
+header .container-museum-title button {
     justify-self: flex-end;
 }
 
-.container-nom-musee img {
+header .container-nom-musee img {
     padding-right: 25px;
 }
 

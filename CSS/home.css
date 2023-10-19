@@ -7,7 +7,7 @@
  |_|  |_|  \___|  \__,_|  \__,_|  \___| |_|
 
  */
- header {
+header {
     background-color: rgba(176, 182, 110, 0.26);
 }
 
@@ -58,7 +58,7 @@ div.nom_musee {
 
 header nav ul li {
     margin-top: 15px;
-    margin-bottom: -60px;
+    margin-bottom: -20px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -96,7 +96,7 @@ nav li:hover {
     position: relative;
 }
 
-header nav ul li.menu{
+header nav ul li.menu {
 
     background-color: #B0B66E;
 }
@@ -121,13 +121,13 @@ header nav ul li.menu{
 | |  | | (_| | | | | |
 |_|  |_|\__,_|_|_| |_|
                       
-*/   
+*/
 body {
     background-color: white;
     font-family: 'Arial';
 }
 
-main section{
+main section {
     margin-top: 80px;
     margin-left: 60px;
     margin-right: 60px;
@@ -342,7 +342,7 @@ h3.button-school {
 
 }
 
-h3.educ-title { 
+h3.educ-title {
     color: #D6B251;
     font-size: 30px;
     margin-bottom: 25px;
@@ -350,15 +350,15 @@ h3.educ-title {
 }
 
 
-.slideshow-grid{
+.slideshow-grid {
     position: relative;
     display: grid;
-    grid-template-rows:1fr ;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 5fr;
 
 }
 
-.slideshow-title{
+.slideshow-title {
     position: absolute;
     grid-column-start: 1;
     grid-column-end: 1;
@@ -366,7 +366,7 @@ h3.educ-title {
     grid-row-end: 1;
     transform: translate(-100%, -100%);
     top: 50%;
-    transform:rotate(-90deg);
+    transform: rotate(-90deg);
     justify-content: center;
 }
 
@@ -383,12 +383,12 @@ h3.educ-title {
     position:relative;
     width: 70%
 
-}*/ 
+}*/
 
-.rectangle-slideshow{
+.rectangle-slideshow {
     position: absolute;
-    bottom:50%;
-    right:5%;
+    bottom: 50%;
+    right: 5%;
     background-color: lightgrey;
     align-content: end;
 }
@@ -402,10 +402,14 @@ h3.educ-title {
  |_|       \___/   \___/   \__|  \___| |_|
 
  */
- footer div {
+footer div {
     display: flex;
     justify-content: space-evenly;
+}
 
+footer table {
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 footer div.ligne-footer {
@@ -417,20 +421,14 @@ footer div.ligne-footer {
 
 }
 
-footer div.footersubcontener {
+footer div.footersubsubcontener {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
-footer div.footersubsubcontener {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-}
-
-div.bottombottom nav ul {
+footer nav ul li a {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }

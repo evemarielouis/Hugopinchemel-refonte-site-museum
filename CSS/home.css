@@ -429,7 +429,7 @@ footer div.ligne-footer {
 
 div nav ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row-reverse;
 }
 

@@ -63,9 +63,18 @@ header nav ul li {
     align-items: center;
     list-style: none;
     background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 header nav ul {
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;*/
+    justify-content: center;
+}
+
+header .box-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -135,9 +144,6 @@ header .container-nom-musee img {
     padding-right: 25px;
 }
 
-header nav { 
-   
-}
 
 
 

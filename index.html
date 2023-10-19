@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/home.css">
     <link rel="stylesheet" href="CSS/system.css">
+    <link rel="stylesheet" href="splide-4.1.3\dist\css\splide.min.css">
     <title>Muséum Bordeaux</title>
+    <script src="splide-4.1.3\dist\js\splide.min.js"></script>
+    <script>
+        new Splide( '.splide' ).mount();
+      </script>
+      <script>
+        document.addEventListener( 'DOMContentLoaded', function() {
+          var splide = new Splide( '.splide' );
+          splide.mount();
+        } );
+      </script>
 </head>
 
 <body>
@@ -29,13 +40,6 @@
                     <p class="Accessibilité"> ACCESSIBILITE</p>
                 </div>
             </div>
-
-        </div>
-    </header>
-
-    <main>
-
-        <div class="box-nav">
             <nav>
                 <ul>
                     <li class="dropdown">
@@ -71,39 +75,73 @@
                         </ul>
                     </li>
                 </ul>
-
             </nav>
+
         </div>
+    </header>
+
+    <main>
 
 
-
-
-        <section class="section1">
+        <section>
             <div class="slideshow-grid">
-                <div>
+                <div class="presentation-slideshow">
                     <h2 class="slideshow-title">évènements</h2>
                     <div class="line-slideshow"></div>
                 </div>
+                <div class="cover-grid">
+                    <div class="cover">
 
-                <div class="cover">
 
-                    <div class="container-slide"> <img src="images\ours-slideshow.jpg">
+                        <img src="images\ours-slideshow.jpg">
+                        <div class="container-slide">
 
-                        <div class="rectangle-slideshow">
-                            <h3>La nature vue par l'homme</h3>
-
-                            <a href="TICKET">Réserver <img src="TICKET"></a>
-                            <p>L’exposition permanente du Muséum de Bordeaux, que l’on découvre dès le hall d’accueil
-                                et jusqu’au 2ème étage dans la galerie Souverbie, évoque <b>la richesse de la
-                                    biodiversité.</b>
-                            </p>
+                            <div class="rectangle-slideshow">
+                                <h3 class="slideshow-description">La nature vue par l'homme</h3>
+                                <div class="slideshow-contenu">
+                                    <a href="TICKET" class="bouton-Reserver2">RESERVER <img src="TICKET"></a>
+                                    <p>L’exposition permanente du Muséum de Bordeaux, que l’on découvre dès le hall
+                                        d’accueil
+                                        et jusqu’au 2ème étage dans la galerie Souverbie, évoque <b>la richesse de la
+                                            biodiversité.</b>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
+        
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide"><div class="cover-grid">
+                        <div class="cover">
+    
+    
+                            <img src="images\ours-slideshow.jpg">
+                            <div class="container-slide">
+    
+                                <div class="rectangle-slideshow">
+                                    <h3 class="slideshow-description">La nature vue par l'homme</h3>
+                                    <div class="slideshow-contenu">
+                                        <a href="TICKET" class="bouton-Reserver2">RESERVER <img src="TICKET"></a>
+                                        <p>L’exposition permanente du Muséum de Bordeaux, que l’on découvre dès le hall
+                                            d’accueil
+                                            et jusqu’au 2ème étage dans la galerie Souverbie, évoque <b>la richesse de la
+                                                biodiversité.</b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div></li>
+                      <li class="splide__slide">Slide 02</li>
+                      <li class="splide__slide">Slide 03</li>
+                  </ul>
+            </div>
+          </section>
 
         <section class="presentation-museum">
             <div class="container">
@@ -209,6 +247,7 @@
         </section>
 
     </main>
+
     <footer>
         <div class="ligne-footer"></div>
         <div class="footersubcontener">

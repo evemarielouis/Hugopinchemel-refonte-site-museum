@@ -163,6 +163,9 @@ header .container-nom-musee img {
 
 .box-nav nav ul li.menu {
     background-color: #B0B66E;
+    padding: 10px;
+    justify-content: center;
+    width: 150px;
 }
 
 .box-nav .dropdown-menu {

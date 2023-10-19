@@ -383,3 +383,45 @@ h3.educ-title {
     background-color: lightgrey;
     align-content: end;
 }
+
+/*
+  ______                   _
+ |  ____|                 | |
+ | |__      ___     ___   | |_    ___   _ __
+ |  __|    / _ \   / _ \  | __|  / _ \ | '__|
+ | |      | (_) | | (_) | | |_  |  __/ | |
+ |_|       \___/   \___/   \__|  \___| |_|
+
+ */
+ footer div {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer div.ligne-footer {
+    display: flex;
+    flex-grow: initial;
+    margin-top: 80px;
+    border-top: 2px solid #d6b251;
+    margin-bottom: 30px;
+
+}
+
+footer div.footersubcontener {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+footer div.footersubsubcontener {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+div.bottombottom nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}

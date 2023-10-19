@@ -129,11 +129,6 @@ p.languages {
     padding: 0.4em;
 }
 
-.display-icon { 
-    display: flex;
-    justify-content: space-between;
-}
-
 /**************** NAV **********/
 
 .box-nav nav ul {

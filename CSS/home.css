@@ -528,7 +528,7 @@ h3.educ-title {
     display: flex;
     flex-direction: column;
     transform: translate(-100%, -100%);
-    width: 20%;
+    width: 70%;
     height: 35%;
     justify-content: space-around;
     position: absolute;
@@ -640,5 +640,5 @@ footer div.footersubsubcontener {
 }
 
 .splide {
-    width: 100%;
+    width: 70%;
 }

@@ -278,4 +278,5 @@ h3.educ-title {
     bottom:50%;
     right:5%;
     background-color: lightgrey;
+    align-content: end;
 }

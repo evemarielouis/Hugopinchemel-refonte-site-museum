@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="system.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/system.css">
 
     <title>Muséum Bordeaux</title>
 </head>
@@ -14,32 +14,53 @@
 <body>
 
     <header>
-
-        <table>
-            <tr>
-                <td><img src="LOGO-MUSEUM.png" width="125" height="100" alt="logo du museum"></td>
-                <td>
-                    <div class="header">
-                        <h1>MUSEUM DE BORDEAUX</h1></br>
-                        <h2>Sciences et nature</h2>
-                    </div>
-
-                </td>
-            </tr>
-        </table>
+        <div>
+            <img src="ressources/LOGO-MUSEUM.png" width="125" height="100" alt="logo du museum">
+            <div class="nom_musee">
+                <h1>MUSEUM DE BORDEAUX</h1>
+                <h2>Sciences et nature</h2>
+            </div>
+        </div>
         <nav>
-            <u>
+            <ul>
+                <li class="dropdown">
+                    <div class="lignetop"></div>
+                    <a>VISITER</a>
+                    <div class="lignetop"></div>
+                    <ul class="dropdown-menu">
+                        <li class="menu"><a href="#">EXPOSITION</a></li>
+                        <li class="menu"><a href="#">COLLECTIONS</a></li>
+                        <li class="menu"><a href="#">AGENDA</a></li>
+                    </ul>
                 <li>
-                    <a href="">Visiter</a>
+                <li class="dropdown">
+                    <div class="lignetop"></div>
+                    <a>MUSÉE</a>
+                    <div class="lignetop"></div>
+                    <ul class="dropdown-menu">
+                        <li class="menu"><a href="#">ÉQUIPE DU MUSÉE</a></li>
+                        <li class="menu"><a href="#">PLAN</a></li>
+                        <li class="menu"><a href="#">HORAIRES</a></li>
+                        <li class="menu"><a href="#">ACCESSIBILITE</a></li>
+                        <li class="menu"><a href="#">OFFRE D'EMPLOI</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="">Musée</a>
+                <li class="dropdown">
+                    <div class="lignetop"></div>
+                    <a>ÉDUCATION</a>
+                    <div class="lignetop"></div>
+                    <ul class="dropdown-menu">
+                        <li class="menu"><a href="#">HORS LES MURS</a></li>
+                        <li class="menu"><a href="#">TOUT PETITS</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a href="">Education</a>
-                </li>
-            </u>
+            </ul>
         </nav>
+        <button class="bouton-Reserver" onclick="window.location.href='billeterie.html'">RESERVER</button>
+        <p class="langue"> <a href="langue 1">
+                < </a> FR <a href="langue 3"> ></a> </p>
+        <p class="Accessibilité"> ACCESSIBILITE</p>
     </header>
 
     <main>

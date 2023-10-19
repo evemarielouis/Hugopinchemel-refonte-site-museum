@@ -83,3 +83,21 @@ h3 {
 header, body, footer {
     cursor: default;
 }
+
+a {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+li.menu a {
+    font-family: 'Arial';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}

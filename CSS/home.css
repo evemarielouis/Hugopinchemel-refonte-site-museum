@@ -127,6 +127,12 @@ body {
     font-family: 'Arial';
 }
 
+main section{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 div.description-museum {
     display: flex;
     flex-wrap: wrap;

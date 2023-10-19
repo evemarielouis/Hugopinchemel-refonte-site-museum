@@ -135,7 +135,12 @@ header .container-nom-musee img {
     
 }
 
-.box-nav nav ul li a:hover {
+.box-nav nav ul.dropdown-menu li.menu a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
+header .options-header a:hover {
     text-decoration: underline;
     text-underline-offset: 0.4em;
 }

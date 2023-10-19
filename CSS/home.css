@@ -242,7 +242,12 @@ h3.educ-title {
     justify-content: center;
 }
 
-.cover { 
+.container-slide {
+    display: flex;
+    align-content: end;
+}
+
+/* .cover { 
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -250,7 +255,7 @@ h3.educ-title {
     position:relative;
     width: 70%
 
-}
+}*/ 
 
 .rectangle-slideshow{
     position: absolute;

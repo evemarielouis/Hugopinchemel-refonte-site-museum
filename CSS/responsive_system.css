@@ -1,0 +1,59 @@
+/*
+  ______                   _
+ |  ____|                 | |
+ | |__      ___    _ __   | |_
+ |  __|    / _ \  | '_ \  | __|
+ | |      | (_) | | | | | | |_
+ |_|       \___/  |_| |_|  \__|
+ 
+ */
+
+ @media (max-width: 768px) {
+
+    body, p {
+        font-family: 'Arial';
+        font-size: 18px;
+        color: #3D3F3E;
+    }
+    
+    small { 
+        font-family: 'Arial';
+        font-size: 16px;
+        color: #3D3F3E;
+    }
+    
+    h1 {
+        font-family: 'WalbaumDisplay';
+        font-size: 32px;
+        color: #3D3F3E;
+    }
+    
+    h2 { 
+        font-family: 'WalbaumDisplay';
+        font-size: 24px;
+        color: #D6B251;
+        letter-spacing: 2px;
+    }
+    
+    h3 {
+        font-family: 'WalbaumDisplay';
+        font-size: 20px;
+        color: #3D3F3E;
+        letter-spacing: 2px;
+    }
+    
+    
+    a {
+        font-family: 'Arial';
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    
+    li.menu a {
+        font-family: 'Arial';
+        font-size: 15px;
+        color: white;
+        text-decoration: none;
+    }
+     }

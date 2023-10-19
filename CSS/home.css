@@ -43,8 +43,6 @@ header div.header-button {
     justify-content: end;
     text-align: center;
 }
-
-
 header div img {
     margin-left: 60px;
     margin-top: 10px;
@@ -111,6 +109,11 @@ header nav ul li.menu {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.container-header {
+    position: relative;
+    margin-bottom: 80px;
 }
 
 /*

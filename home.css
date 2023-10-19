@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'WalbaumDisplay';
+    src: url('font\walbaumdisplayregular.woff2');
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('font\ArialMT.woff2');
+}
+
+@font-face {
+    font-family: 'Arial';
+    font-style: bold;
+    src: url('font\Arial-BoldMT.woff2');
+}
+
+@font-face {
+    font-family: 'Arial-ItalicMT';
+    font-style: italic;
+    src: url('font\Arial-ItalicMT.woff2');
+}
+
+body {
+    background-color: white;
+    font-family: 'Arial';
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+div.description-museum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+div.description-museum img {
+    justify-content: space-between;
+}
+
+img.interior {
+    width: 648px;
+    height: 488px;
+    border-radius: 10px;
+    max-width: 55%;
+    max-height: 100%;
+}
+
+img.skeleton {
+    width: 423px;
+    height: 408px;
+    border-radius: 10px;
+    margin-top: 81px;
+    max-width: 40%;
+    max-height: 100%;
+}
+
+div.block-text {
+    width: 646px;
+    height: 409px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+div.block-text p,
+section.presentation-museum h2,
+p.intro-museum {
+    margin-bottom: 50px;
+}
+
+div.description-museum img {
+    margin-bottom: 25px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+p.intro-museum {
+    width: 646px;
+    max-width: 55%;
+    max-height: 100%;
+}
+
+div.container {
+    max-width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    box-align: center;
+}
+
+.type-h3 {
+    font-size: 40px;
+    color: #3D3F3E;
+}
+
+section.education div.container-titre {
+    max-width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.line {
+    width: 785px;
+    height: 3px;
+    background-color: #D6B251;
+}
+
+section.education img.button {
+    filter: blur(1px);
+    max-width: 100%;
+    width: 648px;
+    height: 185px;
+    overflow: hidden;
+    object-fit: cover;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    opacity: 50%;
+}
+
+.button-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.scolarite,
+.loisir {
+    position: relative;
+    width: 648px;
+    height: 185px;
+    max-width: 50%;
+    margin-bottom: 80px;
+}
+
+.scolarite h3,
+.loisir h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3.button-school {
+    font-size: 30px;
+    color: white;
+}
+
+.hover {
+    position: absolute;
+    background-color: #3D3F3E;
+    opacity: 1;
+    border-radius: 10px;
+
+}
+
+.grid-education {
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    gap: 10px;
+}
+
+.grid-education img {
+    margin-bottom: 50px;
+}
+
+.imgchildren {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border-radius: 10px;
+}
+
+.imgours {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 10px;
+
+}
+
+.texte-atelier {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border-radius: 10px;
+
+}
+
+.line-school {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 100%;
+    height: 3px;
+    background-color: #D6B251;
+    margin-top: 8%;
+    justify-content: center;
+
+}
+
+.line-school1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 100%;
+    height: 3px;
+    background-color: #D6B251;
+    margin-top: 8%;
+    justify-content: center;
+
+}
+
+h3.educ-title { 
+    color: #D6B251;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+
+
+.slideshow-grid{
+    position: relative;
+    display: grid;
+    grid-template-rows:1fr ;
+    grid-template-columns: 1fr 5fr;
+
+}
+
+.slideshow-title{
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    transform: translate(-100%, -100%);
+    top: 50%;
+    transform:rotate(-90deg);
+    justify-content: center;
+}
+
+.cover { 
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    position:relative;
+    width: 70%
+
+}
+
+.rectangle-slideshow{
+    position: absolute;
+    bottom:50%;
+    right:5%;
+    background-color: lightgrey;
+}

@@ -1,0 +1,72 @@
+@font-face { 
+    font-family : 'WalbaumDisplay';
+    src: url('font\walbaumdisplayregular.woff2');
+}
+
+@font-face { 
+    font-family: 'Arial';
+    src: url('font\ArialMT.woff2');
+}
+
+@font-face { 
+    font-family: 'Arial';
+    font-style: bold;
+    src: url('font\Arial-BoldMT.woff2');
+}
+
+@font-face { 
+    font-family: 'Arial-ItalicMT';
+    font-style: italic;
+    src: url('font\Arial-ItalicMT.woff2');
+}
+
+
+body, p {
+    font-family: 'Arial';
+    font-size: 18px;
+    color: #3D3F3E;
+}
+
+small { 
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #3D3F3E;
+}
+
+h1 {
+    font-family: 'WalbaumDisplay';
+    font-size: 45px;
+    color: #3D3F3E;
+    letter-spacing: 2px;
+}
+
+h2 { 
+    font-family: 'WalbaumDisplay';
+    font-size: 40px;
+    color: #D6B251;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: 'WalbaumDisplay';
+    font-size: 30px;
+    color: #3D3F3E;
+    letter-spacing: 2px;
+}
+
+.bouton-Reserver {
+    position: absolute;
+    top: 12px;
+    left: 820px;
+    background-color: #39958c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}

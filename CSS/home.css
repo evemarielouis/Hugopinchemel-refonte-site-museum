@@ -415,14 +415,10 @@ h3.educ-title {
  |_|       \___/   \___/   \__|  \___| |_|
 
  */
-footer div {
+ footer div {
     display: flex;
     justify-content: space-evenly;
-}
 
-footer table {
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 footer div.ligne-footer {
@@ -434,14 +430,27 @@ footer div.ligne-footer {
 
 }
 
-footer div.footersubsubcontener {
+div nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+footer div.footersubcontener {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
-footer nav ul li a {
+footer div.footersubsubcontener {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
 }

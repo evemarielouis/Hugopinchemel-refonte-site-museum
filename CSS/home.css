@@ -7,22 +7,8 @@
  |_|  |_|  \___|  \__,_|  \__,_|  \___| |_|
 
  */
- header {
+header {
     background-color: rgba(176, 182, 110, 0.26);
-}
-
-.bouton-Reserver {
-    background-color: #39958c;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
 }
 
 header div.top-header {
@@ -43,14 +29,12 @@ header div.header-button {
     justify-content: end;
     text-align: center;
 }
-
-
 header div img {
     margin-left: 60px;
     margin-top: 10px;
 }
 
-div.nom_musee {
+header .nom_musee {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -58,7 +42,7 @@ div.nom_musee {
 
 header nav ul li {
     margin-top: 15px;
-    margin-bottom: -60px;
+    margin-bottom: -20px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -73,14 +57,14 @@ header nav ul {
     justify-content: space-evenly;
 }
 
-div.lignetop {
+header .lignetop {
     border-top: 2px solid #d6b251;
     padding-top: 5px;
     width: 150px;
     align-items: center;
 }
 
-div.lignebottom {
+header .lignebottom {
     border-bottom: 2px solid #d6b251;
     padding-bottom: 5px;
     width: 150px;
@@ -88,20 +72,20 @@ div.lignebottom {
 
 }
 
-nav li:hover {
+header nav li:hover {
     font-size: 20px;
 }
 
-.dropdown {
+header .dropdown {
     position: relative;
 }
 
-header nav ul li.menu{
+header nav ul li.menu {
 
     background-color: #B0B66E;
 }
 
-.dropdown-menu {
+header .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
@@ -109,9 +93,35 @@ header nav ul li.menu{
     background-color: #B0B66E;
 }
 
-.dropdown:hover .dropdown-menu {
+header .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+header .container-nom-musee { 
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .container-header {
+    position: relative;
+    margin-bottom: 80px;
+    padding: 25px;
+}
+
+header .container-museum-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container-museum-title button {
+    justify-self: flex-end;
+}
+
+header .container-nom-musee img {
+    padding-right: 25px;
+}
+
+
 
 /*
  __  __       _       
@@ -121,13 +131,13 @@ header nav ul li.menu{
 | |  | | (_| | | | | |
 |_|  |_|\__,_|_|_| |_|
                       
-*/   
+*/
 body {
     background-color: white;
     font-family: 'Arial';
 }
 
-main section{
+main section {
     margin-top: 80px;
     margin-left: 60px;
     margin-right: 60px;
@@ -342,7 +352,7 @@ h3.button-school {
 
 }
 
-h3.educ-title { 
+h3.educ-title {
     color: #D6B251;
     font-size: 30px;
     margin-bottom: 25px;
@@ -350,10 +360,14 @@ h3.educ-title {
 }
 
 
+<<<<<<< HEAD
 /*.slideshow-grid{
+=======
+.slideshow-grid {
+>>>>>>> e8be7ac5244dac33282fbae7a50cb75dd7230b26
     position: relative;
     display: grid;
-    grid-template-rows:1fr ;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 5fr;
 
 }
@@ -367,10 +381,19 @@ h3.educ-title {
     gap:10px;
 }
 
+<<<<<<< HEAD
 .slideshow-title{
+=======
+.slideshow-title {
+    position: absolute;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+>>>>>>> e8be7ac5244dac33282fbae7a50cb75dd7230b26
     transform: translate(-100%, -100%);
     top: 50%;
-    transform:rotate(-90deg);
+    transform: rotate(-90deg);
     justify-content: center;
 }
 
@@ -388,6 +411,7 @@ h3.educ-title {
     position:relative;
     width: 70%
 
+<<<<<<< HEAD
 }*/ 
 /*.cover-grid{
      grid-column-start: 2;
@@ -414,6 +438,14 @@ h3.educ-title {
     height: 35%;
     justify-content: space-around;
     position: absolute;
+=======
+}*/
+
+.rectangle-slideshow {
+    position: absolute;
+    bottom: 50%;
+    right: 5%;
+>>>>>>> e8be7ac5244dac33282fbae7a50cb75dd7230b26
     background-color: lightgrey;
     align-content: end;
     padding: 50px;
@@ -484,6 +516,12 @@ footer div.ligne-footer {
 
 }
 
+div nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
 footer div.footersubcontener {
     display: flex;
     justify-content: space-evenly;
@@ -494,10 +532,13 @@ footer div.footersubsubcontener {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-div.bottombottom nav ul {
+.icon {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    padding: 10px;
+
 }

@@ -540,6 +540,9 @@ h3.educ-title {
     border-radius: 10px 0 0 0;
     min-width: 0;
     text-align: left;
+    padding: 5px;
+    overflow: hidden;
+    white-space: wrap;
 
 }
 
@@ -567,7 +570,7 @@ h3.educ-title {
     cursor: pointer;
     border-radius: 10px;
     width: 199px;
-    height: 55px
+    height: 55px;
 }
 
 .line-slideshow {

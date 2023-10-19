@@ -443,6 +443,8 @@ footer div.footersubsubcontener {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .icon {

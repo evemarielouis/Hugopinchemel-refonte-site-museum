@@ -528,7 +528,7 @@ h3.educ-title {
     display: flex;
     flex-direction: column;
     transform: translate(-100%, -100%);
-    width: 50%;
+    width: 20%;
     height: 35%;
     justify-content: space-around;
     position: absolute;

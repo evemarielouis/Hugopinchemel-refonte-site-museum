@@ -58,7 +58,7 @@ div.nom_musee {
 
 header nav ul li {
     margin-top: 15px;
-    margin-bottom: -20px;
+    margin-bottom: -60px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -128,7 +128,7 @@ body {
 }
 
 main section{
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 60px;
     margin-right: 60px;
 }

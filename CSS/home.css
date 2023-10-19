@@ -116,6 +116,16 @@ header nav ul li.menu {
     margin-bottom: 80px;
 }
 
+.container-museum-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-header {
+    display: flex;
+    
+}
+
 /*
  __  __       _       
 |  \/  |     (_)      

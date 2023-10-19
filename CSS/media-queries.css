@@ -1,0 +1,33 @@
+/* version mobile */
+@media (max-width: 768px) {
+
+    body {
+        color: blue;
+        width: 100%;
+        max-width: 375px;
+        object-fit: cover;
+      
+    }
+    .dropdown, .nom_musee h2, .bouton-Reserver, .options-header p{
+        visibility: hidden;
+    }
+
+    .container-nom-musee img{
+        margin: 0;
+        padding: 15px 15px 15px 15px;
+
+  }
+
+    .nom_musee{
+        position: relative;
+        width:90%;
+        margin: 0;
+    }
+
+    .container-header{
+        height:100px;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+}

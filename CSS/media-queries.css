@@ -16,7 +16,7 @@
         object-fit: cover;
       
     }
-    .dropdown, .nom_musee h2, .bouton-Reserver, .options-header p, .options-header a{
+    .dropdown, .bouton-Reserver, .options-header p, .options-header a{
         visibility: hidden;
     }
 
@@ -40,6 +40,8 @@
         height:100px;
         padding: 0px 0px 0px 0px;
         width: 375px;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .skeleton{
@@ -231,4 +233,12 @@
     .rectangle-slideshow p{
         font-size: 13px;
     }
+    .container-museum-title{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .icon-burger-mobile{
+        width:50px;
+        margin-left: 25px;
     }

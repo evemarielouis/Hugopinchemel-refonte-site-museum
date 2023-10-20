@@ -494,6 +494,7 @@ h3.educ-title {
     align-content: end;
     display: flex;
     width: 1275px;
+    flex-direction: column;
 }
 
 /* .cover { 
@@ -537,10 +538,16 @@ h3.educ-title {
     padding: 50px;
     opacity: 0.9;
     border-radius: 10px 0 0 0;
+    min-width: 0;
+    text-align: left;
+    padding: 5px;
+    overflow: hidden;
+    white-space: wrap;
+
 }
 
-.slideshow-description {
-    display: block;
+.rectangle-slideshow p {
+    align:left;
 }
 
 .slideshow-contenu {
@@ -563,7 +570,7 @@ h3.educ-title {
     cursor: pointer;
     border-radius: 10px;
     width: 199px;
-    height: 55px
+    height: 55px;
 }
 
 .line-slideshow {

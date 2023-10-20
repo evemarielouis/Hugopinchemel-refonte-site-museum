@@ -225,6 +225,7 @@
         width:100%;
         justify-content: space-between;
         padding: 5px;
+        border-radius: 0;
     }
     .rectangle-slideshow p{
         font-size: 13px;

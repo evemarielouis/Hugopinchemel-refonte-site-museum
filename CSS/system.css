@@ -10,24 +10,24 @@
 
 @font-face { 
     font-family : 'WalbaumDisplay';
-    src: url('font/walbaumdisplayregular.woff2');
+    src: url('/font/walbaumdisplayregular.woff2');
 }
 
 @font-face { 
     font-family: 'Arial';
-    src: url('font/ArialMT.woff2');
+    src: url('/font/ArialMT.woff2');
 }
 
 @font-face { 
     font-family: 'Arial';
     font-style: bold;
-    src: url('font/Arial-BoldMT.woff2');
+    src: url('/font/Arial-BoldMT.woff2');
 }
 
 @font-face { 
     font-family: 'Arial-ItalicMT';
     font-style: italic;
-    src: url('font/Arial-ItalicMT.woff2');
+    src: url('/font/Arial-ItalicMT.woff2');
 }
 
 body, p {

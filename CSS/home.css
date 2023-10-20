@@ -125,11 +125,9 @@ header .container-nom-musee img {
     padding-right: 25px;
 }
 
-p.languages { 
+p.languages {
     padding: 0.4em;
 }
-
-/**************** NAV **********/
 
 .box-nav nav ul {
     display: flex;
@@ -197,7 +195,9 @@ header .options-header a:hover {
     -top: 5px;
 }
 
-.splide__track ul li{text-align: center;}
+.splide__track ul li {
+    text-align: center;
+}
 
 
 
@@ -450,16 +450,6 @@ h3.educ-title {
 
 }
 
-
-/*.slideshow-grid{
-    position: relative;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 5fr;
-
-}
-*/
-
 .slideshow-grid {
     display: flex;
     align-items: center;
@@ -470,10 +460,11 @@ h3.educ-title {
 
 .slideshow-grid2 {
     display: flex;
-    align-items: end;
+    align-items: center;
     margin-top: 150px;
     height: 600px;
     gap: 10px;
+    flex-direction: row-reverse;
 }
 
 .slideshow-title {
@@ -496,23 +487,6 @@ h3.educ-title {
     width: 1275px;
     flex-direction: column;
 }
-
-/* .cover { 
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    position:relative;
-    width: 70%
-
-}*/
-/*.cover-grid{
-     grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-*/
 
 .cover {
     display: flex;
@@ -547,7 +521,7 @@ h3.educ-title {
 }
 
 .rectangle-slideshow p {
-    align:left;
+    align: left;
 }
 
 .slideshow-contenu {
@@ -584,7 +558,7 @@ h3.educ-title {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 
 }
 
@@ -594,6 +568,19 @@ h3.educ-title {
     justify-content: space-between;
     align-items: start;
 
+}
+
+.cover {
+    display: flex;
+    align-items: end;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.cover img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*
@@ -634,7 +621,7 @@ footer div.footersubsubcontener {
     padding-left: 10px;
 }
 
-.footersubcontener h3, 
+.footersubcontener h3,
 .footersubcontener p {
     margin-bottom: 10px;
 }

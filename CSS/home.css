@@ -197,8 +197,6 @@ header .options-header a:hover {
     -top: 5px;
 }
 
-.splide__track ul li{text-align: center;}
-
 
 
 /*
@@ -250,14 +248,6 @@ img.skeleton {
     margin-top: 81px;
     max-width: 40%;
     max-height: 100%;
-}
-
-.cover img {
-    height: 100%;
-    width: 100%;
-    object-fit: scale-down;
-    max-width: 1024px;
-    max-height: 680px;
 }
 
 
@@ -518,12 +508,17 @@ h3.educ-title {
     display: flex;
     align-items: end;
     border-radius: 10px;
-
+    height: 100%;
 }
 
 .cover img {
     border-radius: 10px;
-}
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    max-width: 1024px;
+    max-height: 680px;
+    }
 
 .rectangle-slideshow {
     display: flex;

@@ -140,6 +140,7 @@
         justify-content: space-evenly;
         gap: 20px;
         margin: 30px;
+        border-top: solid 2px #d6b251;
         
     }
 

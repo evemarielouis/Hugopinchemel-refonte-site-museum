@@ -654,3 +654,8 @@ main section.education{
 body{
     height: auto;
 }
+
+.icon-burger-mobile{
+    visibility: hidden;
+    position: absolute;
+}

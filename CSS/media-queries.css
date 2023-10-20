@@ -7,7 +7,6 @@
     }
 
     main section{
-        margin:30px;
     }
 
     body{
@@ -17,7 +16,7 @@
         object-fit: cover;
       
     }
-    .dropdown, .nom_musee h2, .bouton-Reserver, .options-header p, .options-header a{
+    .dropdown, .bouton-Reserver, .options-header p, .options-header a{
         visibility: hidden;
     }
 
@@ -41,6 +40,8 @@
         height:100px;
         padding: 0px 0px 0px 0px;
         width: 375px;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     .skeleton{
@@ -79,9 +80,10 @@
     }
 
     .presentation-museum{
-        width:320px;
+        width:375px;
         display: flex;
         justify-content: center;
+        margin:0;
     }
     .presentation-museum img{
        height:100%;
@@ -91,6 +93,7 @@
 
     .bouton-reserver{
         visibility: hidden;
+        position: absolute;
     }
 
     .presentation-slideshow2{
@@ -139,6 +142,7 @@
         justify-content: space-evenly;
         gap: 20px;
         margin: 30px;
+        border-top: solid 2px #d6b251;
         
     }
 
@@ -159,18 +163,20 @@
 
     .slideshow-grid{
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 0px;
         height: auto;
     }
-    header.box-nav {
+    .box-nav nav ul {
         visibility: hidden;
         position: absolute;
+        width: 0;
+
     }
 
     .slideshow-grid2{
         justify-content: center;
         height: auto;
-        margin-top: 380px;
+        margin-top: 200px;
     }
 
     .nom_musee img{
@@ -215,6 +221,24 @@
         margin: 5px 0px;
     }
     
+    .slideshow1{
+        margin:1px;
+    }
+    .rectangle-slideshow{
+        width:100%;
+        justify-content: space-between;
+        padding: 5px;
+        border-radius: 0;
+    }
+    .rectangle-slideshow p{
+        font-size: 13px;
+    }
+    .container-museum-title{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 
-
+    .icon-burger-mobile{
+        width:50px;
+        margin-left: 25px;
     }

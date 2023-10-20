@@ -596,7 +596,7 @@ h3.educ-title {
  |_|       \___/   \___/   \__|  \___| |_|
 
  */
-footer div {
+ footer div {
     display: flex;
     justify-content: space-evenly;
 
@@ -614,7 +614,7 @@ footer div.ligne-footer {
 footer div nav ul {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 footer div.footersubsubcontener {
@@ -625,7 +625,7 @@ footer div.footersubsubcontener {
     padding-left: 10px;
 }
 
-.footersubcontener h3,
+.footersubcontener h3, 
 .footersubcontener p {
     margin-bottom: 10px;
 }
@@ -639,4 +639,12 @@ footer div.footersubsubcontener {
 
 .splide {
     width: 70%;
+}
+
+.footer-bas-de-page {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 20px;
 }

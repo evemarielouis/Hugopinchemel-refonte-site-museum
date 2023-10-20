@@ -56,4 +56,14 @@
         color: white;
         text-decoration: none;
     }
+
+    h3.button-school{
+        font-family: 'Arial';
+        font-size: 20px;
+    }
+
+    .nom-musee h1{
+        font-family: 'WalbaumDisplay';
+        font-size: 20px;
+    }
      }

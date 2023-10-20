@@ -118,3 +118,9 @@ li.menu a {
     text-decoration: underline;
     text-underline-offset: 0.4em;
 }
+
+.lien:hover { 
+    color: #3D3F3E;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}

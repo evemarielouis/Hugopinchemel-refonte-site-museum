@@ -13,7 +13,7 @@ header {
     z-index: 2;
 }
 
-.nom_musee img{
+.nom_musee img {
     visibility: hidden;
     position: absolute;
 }
@@ -46,7 +46,7 @@ header .nom_musee {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-                        
+
 }
 
 header nav ul li {
@@ -501,7 +501,7 @@ h3.educ-title {
     width: 100%;
     max-width: 1024px;
     max-height: 680px;
-    }
+}
 
 .rectangle-slideshow {
     display: flex;
@@ -555,7 +555,7 @@ h3.educ-title {
     width: 20%;
     height: 3px;
     background-color: #D6B251;
-    
+
 }
 
 .presentation-slideshow {
@@ -596,7 +596,7 @@ h3.educ-title {
  |_|       \___/   \___/   \__|  \___| |_|
 
  */
- footer div {
+footer div {
     display: flex;
     justify-content: space-evenly;
 
@@ -625,7 +625,7 @@ footer div.footersubsubcontener {
     padding-left: 10px;
 }
 
-.footersubcontener h3, 
+.footersubcontener h3,
 .footersubcontener p {
     margin-bottom: 10px;
 }

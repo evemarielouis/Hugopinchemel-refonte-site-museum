@@ -109,6 +109,15 @@ li.menu a {
     text-decoration: none;
 }
 
+.lien-bouton {
+    color:white;
+}
+.lien-bouton:hover { 
+    color: #D6B251;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
 .lien-special { 
     color: #39958c;
 }

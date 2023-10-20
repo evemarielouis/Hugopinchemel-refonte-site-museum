@@ -46,6 +46,7 @@ header .nom_musee {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+                        
 }
 
 header nav ul li {
@@ -128,6 +129,10 @@ header .container-museum-title button {
 
 header .container-nom-musee img {
     padding-right: 25px;
+    width: 30%;
+    height: 70%;
+    max-width: 150px;
+    max-height: 100px;
 }
 
 p.languages {

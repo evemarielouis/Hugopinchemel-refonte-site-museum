@@ -647,10 +647,10 @@ footer div.footersubsubcontener {
 
 .footersubsubsubcontener{padding: 30px 0px;}
 
-.footer-bas-de-page {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin-bottom: 20px;
+main section.education{
+    margin: 10px;
+}
+
+body{
+    height: auto;
 }

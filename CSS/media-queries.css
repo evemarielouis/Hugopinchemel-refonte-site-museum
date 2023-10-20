@@ -7,7 +7,6 @@
     }
 
     main section{
-        margin:30px;
     }
 
     body{
@@ -79,9 +78,10 @@
     }
 
     .presentation-museum{
-        width:320px;
+        width:375px;
         display: flex;
         justify-content: center;
+        margin:0;
     }
     .presentation-museum img{
        height:100%;
@@ -91,6 +91,7 @@
 
     .bouton-reserver{
         visibility: hidden;
+        position: absolute;
     }
 
     .presentation-slideshow2{
@@ -159,18 +160,20 @@
 
     .slideshow-grid{
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 0px;
         height: auto;
     }
-    header.box-nav {
+    .box-nav nav ul {
         visibility: hidden;
         position: absolute;
+        width: 0;
+
     }
 
     .slideshow-grid2{
         justify-content: center;
         height: auto;
-        margin-top: 380px;
+        margin-top: 200px;
     }
 
     .nom_musee img{
@@ -215,6 +218,15 @@
         margin: 5px 0px;
     }
     
-
-
+    .slideshow1{
+        margin:1px;
+    }
+    .rectangle-slideshow{
+        width:100%;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .rectangle-slideshow p{
+        font-size: 13px;
+    }
     }

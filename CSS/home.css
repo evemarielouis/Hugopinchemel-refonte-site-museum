@@ -13,6 +13,11 @@ header {
     z-index: 2;
 }
 
+.nom_musee img{
+    visibility: hidden;
+    position: absolute;
+}
+
 header div.top-header {
     display: flex;
     justify-content: space-between;

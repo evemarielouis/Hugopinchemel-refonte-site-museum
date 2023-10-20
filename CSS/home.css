@@ -13,7 +13,7 @@ header {
     z-index: 2;
 }
 
-.nom_musee img{
+.nom_musee img {
     visibility: hidden;
     position: absolute;
 }
@@ -50,6 +50,7 @@ header .nom_musee {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 header nav ul li {
@@ -132,6 +133,10 @@ header .container-museum-title button {
 
 header .container-nom-musee img {
     padding-right: 25px;
+    width: 30%;
+    height: 70%;
+    max-width: 150px;
+    max-height: 100px;
 }
 
 p.languages {
@@ -453,6 +458,7 @@ h3.educ-title {
     margin-top: 150px;
     height: 600px;
     gap: 10px;
+    flex-direction: row;
 }
 
 .slideshow-grid2 {
@@ -499,7 +505,7 @@ h3.educ-title {
     width: 100%;
     max-width: 1024px;
     max-height: 680px;
-    }
+}
 
 .rectangle-slideshow {
     display: flex;
@@ -560,7 +566,7 @@ h3.educ-title {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 
 }
 
@@ -612,7 +618,7 @@ footer div.ligne-footer {
 footer div nav ul {
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 footer div.footersubsubcontener {
@@ -640,3 +646,11 @@ footer div.footersubsubcontener {
 }
 
 .footersubsubsubcontener{padding: 30px 0px;}
+
+.footer-bas-de-page {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-bottom: 20px;
+}

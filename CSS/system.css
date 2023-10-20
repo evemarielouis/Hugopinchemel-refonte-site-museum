@@ -10,30 +10,31 @@
 
 @font-face { 
     font-family : 'WalbaumDisplay';
-    src: url('/font/walbaumdisplayregular.woff2');
+    src: url('../font/walbaumdisplayregular.woff2');
 }
 
 @font-face { 
     font-family: 'Arial';
-    src: url('/font/ArialMT.woff2');
+    src: url('../font/ArialMT.woff2');
 }
 
 @font-face { 
-    font-family: 'Arial';
+    font-family: 'Arial-Bold';
     font-style: bold;
-    src: url('/font/Arial-BoldMT.woff2');
+    src: url('../font/Arial-BoldMT.woff2');
 }
 
 @font-face { 
     font-family: 'Arial-ItalicMT';
     font-style: italic;
-    src: url('/font/Arial-ItalicMT.woff2');
+    src: url('../font/Arial-ItalicMT.woff2');
 }
 
 body, p {
     font-family: 'Arial';
     font-size: 18px;
     color: #3D3F3E;
+    text-decoration: none;
 }
 
 small { 
@@ -108,12 +109,27 @@ li.menu a {
     text-decoration: none;
 }
 
+.lien-bouton {
+    color:white;
+}
+.lien-bouton:hover { 
+    color: #D6B251;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
 .lien-special { 
     color: #39958c;
 }
 
 .lien-special:hover { 
     color: #D6B251;
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
+.lien:hover { 
+    color: #3D3F3E;
     text-decoration: underline;
     text-underline-offset: 0.4em;
 }

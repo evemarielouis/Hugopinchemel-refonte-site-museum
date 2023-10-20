@@ -46,6 +46,7 @@ header .nom_musee {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+                        
 }
 
 header nav ul li {
@@ -128,6 +129,10 @@ header .container-museum-title button {
 
 header .container-nom-musee img {
     padding-right: 25px;
+    width: 30%;
+    height: 70%;
+    max-width: 150px;
+    max-height: 100px;
 }
 
 p.languages {
@@ -449,6 +454,7 @@ h3.educ-title {
     margin-top: 150px;
     height: 600px;
     gap: 10px;
+    flex-direction: row;
 }
 
 .slideshow-grid2 {
@@ -549,14 +555,14 @@ h3.educ-title {
     width: 20%;
     height: 3px;
     background-color: #D6B251;
-
+    
 }
 
 .presentation-slideshow {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 
 }
 
